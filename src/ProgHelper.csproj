@@ -28,6 +28,6 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="MonoMod.RuntimeDetour" Version="25.1.0" />
+        <PackageReference Include="MonoMod.RuntimeDetour" Version="25.3.3" />
     </ItemGroup>
 </Project>

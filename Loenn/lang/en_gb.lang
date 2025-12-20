@@ -124,5 +124,8 @@ triggers.progHelper/strictCollisionModifier.placements.name.default=Strict Colli
 triggers.progHelper/strictCollisionModifier.placements.description.default=Modifies entities so that the player will interact with them even when clipping through them in a single frame
 triggers.progHelper/strictCollisionModifier.attributes.description.entityTypes=Supply a comma-separated list of fully-qualified entity type names to restrict applying this trigger to entities of those types
 
+triggers.progHelper/teleportFacingTrigger.placements.name.default=Teleport Facing Trigger
+triggers.progHelper/teleportFacingTrigger.placements.description.default=Makes the player face a direction when teleporting to a spawn point under this trigger
+
 triggers.progHelper/wavedashProtectionTrigger.placements.name.default=Wavedash Protection Trigger
 triggers.progHelper/wavedashProtectionTrigger.placements.description.default=Prevents the player from wall jumping during a down-diagonal dash

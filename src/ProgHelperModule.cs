@@ -25,6 +25,8 @@ public class ProgHelperModule : EverestModule {
 
     public override void Load() {
         ActorExtensions.Load();
+        BackgroundTilesExtensions.Unload();
+        LevelExtensions.Load();
         PlayerExtensions.Load();
         SolidTilesExtensions.Load();
         TileGridExtensions.Load();
@@ -40,6 +42,7 @@ public class ProgHelperModule : EverestModule {
     public override void Unload() {
         ActorExtensions.Unload();
         BackgroundTilesExtensions.Unload();
+        LevelExtensions.Unload();
         PlayerExtensions.Unload();
         SolidTilesExtensions.Unload();
         TileGridExtensions.Unload();
